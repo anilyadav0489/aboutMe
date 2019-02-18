@@ -1,10 +1,13 @@
 import React, {Component} from 'react';
+import anilImage from './anilImage.jpg';
 
 class Page extends Component {
     render() {
         return (
             <div className="page">
-                <div className="my-picture"></div>
+                <div>
+                    <img src={anilImage} className="my-picture" alt="ay"></img>
+                </div>
                 <div className="name-title">Anil Yadav</div>
                 <div className="work-title">Web Developer</div>
                 <div className="vertical-timeline"></div>
@@ -33,6 +36,11 @@ class Page extends Component {
                 <div className="address">Pune, Maharashtra - 412114</div>
                 <div className="skills-title"></div>
                 <div className="skills"></div>
+                <div className="bullet-summary"></div>
+                <div className="bullet-experience-1"></div>
+                <div className="bullet-experience-2"></div>
+                <div className="bullet-experience-3"></div>
+                <div className="bullet-experience-4"></div>
 
             </div>
         );
