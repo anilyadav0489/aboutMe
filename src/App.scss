@@ -1,16 +1,31 @@
-$page-height: 1400px;
-$page-width: 900px;
-$summary-start:150px;
-$experience-1-start:340px;
-$experience-2-start:500px;
-$experience-3-start:660px;
-$experience-4-start:890px;
-$font-size-project-detail: 14px;
-
+@import './custom-styles/variables.scss';
+@import './custom-styles/education.scss';
+@import './custom-styles/experience.scss';
+@import './custom-styles/skills.scss';
 
 .App {
   display: flex;
   justify-content: center;
+}
+
+.dark {
+  position: absolute;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background: black;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.light {
+  position: absolute;
+  display: inline-block;
+  width: 11px;
+  height: 11px;
+  background: rgb(150,150,150);
+  border-radius: 50%;
+  margin: 0 5px;
 }
 
 .page{
@@ -108,6 +123,9 @@ $font-size-project-detail: 14px;
   width: 400px;
 }
 
+
+
+
 .personal-info-title {
   position: absolute;
   left: 600px;
@@ -119,117 +137,70 @@ $font-size-project-detail: 14px;
 .address-title {
   position: absolute;
   left: 600px;
-  top: 80px;
+  top:$address-top;
+  font-weight: 600;
 }
 .address {
   position: absolute;
   left: 600px;
-  top: 110px;
+  top: $address-top + 20px;
 }
-
-.experience-title-main{
+.phone-title{
   position: absolute;
-  left: 140px;
-  top: 300px;
-  font-size: 20px;
-  font-weight: 500;
+  left:600px;
+  top:$phone-top;
+  font-weight: 600;
 }
-
-.designation-title {
+.phone{
   position: absolute;
-  left: 140px;
-  font-size: 18px;
-  font-weight: 500;
+  left: 600px;
+  top: $phone-top + 20px;
 }
-.company-title {
+
+.email-title{
   position: absolute;
-  left: 140px;
-  font-size: 16px;
-  font-weight: 400;
+  left:600px;
+  top:$email-top;
+  font-weight: 600;
 }
-.project-title {
+.email{
   position: absolute;
-  left: 140px;
-  font-size: 16px;
-  font-weight: 400;
+  left: 600px;
+  top: $email-top + 20px;
 }
 
-.project-detail{
+.dob-title{
   position: absolute;
-  left: 140px;
-  width: 430px;
-  font-size: $font-size-project-detail;
+  left:600px;
+  top:$dob-top;
+  font-weight: 600;
+}
+.dob{
+  position: absolute;
+  left: 600px;
+  top: $dob-top + 20px;
 }
 
-.designation-1-title{
-  @extend .designation-title;
-  top: $experience-1-start;
-  
+.profile-title{
+  position: absolute;
+  left:600px;
+  top:$profile-top;
+  font-weight: 600;
 }
-.company-1-title {
-  @extend .company-title;
-  top: $experience-1-start + 20px;
-}
-.project-1-title {
-  @extend .project-title;
-  top: $experience-1-start + 40px;
+.profile{
+  position: absolute;
+  left: 600px;
+  top: $profile-top + 20px;
 }
 
-.project-1-detail{
-  @extend .project-detail;
-  top: $experience-1-start + 60px;
+.linkedin-title{
+  position: absolute;
+  left:600px;
+  top:$linkedin-top;
+  font-weight: 600;
 }
-
-.designation-2-title{
-  @extend .designation-title;
-  top: $experience-2-start;
-}
-.company-2-title {
-  @extend .company-title;
-  top: $experience-2-start + 20px;
-}
-.project-2-title {
-  @extend .project-title;
-  top: $experience-2-start + 40px;
-}
-
-.project-2-detail{
-  @extend .project-detail;
-  top: $experience-2-start + 60px;
-}
-
-.designation-3-title{
-  @extend .designation-title;
-  top: $experience-3-start;
-}
-.company-3-title {
-  @extend .company-title;
-  top: $experience-3-start + 20px;
-}
-.project-3-title {
-  @extend .project-title;
-  top: $experience-3-start + 40px;
-}
-
-.project-3-detail{
-  @extend .project-detail;
-  top: $experience-3-start + 60px;
-}
-
-.designation-4-title{
-  @extend .designation-title;
-  top: $experience-4-start;
-}
-.company-4-title {
-  @extend .company-title;
-  top: $experience-4-start + 20px;
-}
-.project-4-title {
-  @extend .project-title;
-  top: $experience-4-start + 40px;
-}
-
-.project-4-detail{
-  @extend .project-detail;
-  top: $experience-4-start + 60px;
+.linkedin{
+  position: absolute;
+  left: 600px;
+  top: $linkedin-top + 20px;
 }

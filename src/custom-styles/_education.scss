@@ -1,0 +1,73 @@
+
+.education-title-main{
+    position: absolute;
+    left: 140px;
+    top: 1100px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .education-start-time {
+    position: absolute;
+    left: 30px;
+  }
+  .education-title {
+    position: absolute;
+    left: 140px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .education-school {
+    position: absolute;
+    left: 140px;
+    font-size: 18px;
+  }
+  
+  .education-1-start-time{
+    @extend .education-start-time;
+    top:$education-1-start;
+  }
+  
+  .education-1-end-time{
+    @extend .education-start-time;
+    top:$education-1-start + 20px;
+  }
+  
+  .education-1-title {
+    @extend .education-title;
+    top: $education-1-start;
+  
+  }
+  .education-1-school{
+    @extend .education-school;
+    top: $education-1-start + 30px;
+  }
+  .education-2-start-time{
+    @extend .education-start-time;
+    top:$education-2-start;
+  }
+  
+  .education-2-end-time{
+    @extend .education-start-time;
+    top:$education-2-start + 20px;
+  }
+  
+  .education-2-title {
+    @extend .education-title;
+    top: $education-2-start;
+  
+  }
+  .education-2-school{
+    @extend .education-school;
+    top: $education-2-start + 30px;
+  }
+  .bullet-education-1{
+    @extend .bullet;
+    top: $education-1-start + 5px;
+  }
+  .bullet-education-2{
+    @extend .bullet;
+    top: $education-2-start + 5px;
+  }
+  
