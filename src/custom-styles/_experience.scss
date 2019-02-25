@@ -1,9 +1,10 @@
-.experience-icon {
+  .experience-info-icon {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    left: 100px;
-    top:100px;
+    left: 101px;
+    top: 300px;
+    width: 20px;
+    height: 22px;
+    background: white;
   }
   .experience-title-main{
     position: absolute;
@@ -157,3 +158,28 @@
     top: $experience-4-start + 60px;
   }
   
+  .bullet {
+    position: absolute;
+    left: 106px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: black;
+  }
+  
+  .bullet-experience-1{
+    @extend .bullet;
+    top: $experience-1-start + 5px;
+  }
+  .bullet-experience-2{
+    @extend .bullet;
+    top: $experience-2-start + 5px;
+  }
+  .bullet-experience-3{
+    @extend .bullet;
+    top: $experience-3-start + 5px;
+  }
+  .bullet-experience-4{
+    @extend .bullet;
+    top: $experience-4-start + 5px;
+  }

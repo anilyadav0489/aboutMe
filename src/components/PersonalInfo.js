@@ -4,7 +4,7 @@ class PersonalInfo extends Component {
     render(){
         return (
             <div>
-                <div><i className="fa fa-address-card fa-lg"></i></div>
+                <div className="personal-info-icon"><i class="fa fa-address-card fa-lg"></i></div>
                 <div className="personal-info-title">Personal Info</div>
                 <div className="address-title">Address</div>
                 <div className="address">Pune, Maharashtra - 412114</div>

@@ -11,18 +11,14 @@ class Page extends Component {
             <div className="page">
                 <Title />
                 <div className="vertical-timeline"></div>
-                <Experience />
-                <Education />
-                <PersonalInfo />
-                <Skills />
-                <div className="bullet-summary"></div>
-                <div className="bullet-experience-1"></div>
-                <div className="bullet-experience-2"></div>
-                <div className="bullet-experience-3"></div>
-                <div className="bullet-experience-4"></div>
-                <div className="bullet-education-1"></div>
-                <div className="bullet-education-2"></div>
-
+                <div className="left-half">
+                    <Experience />
+                    <Education />
+                </div>
+                <div className="right-half">
+                    <PersonalInfo />
+                    <Skills />
+                </div>
             </div>
         );
     }

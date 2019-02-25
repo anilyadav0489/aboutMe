@@ -1,33 +1,16 @@
+@page { size: auto;  margin: 0mm; }
 @import './custom-styles/variables.scss';
 @import './custom-styles/education.scss';
 @import './custom-styles/experience.scss';
 @import './custom-styles/skills.scss';
 @import './custom-styles/personalInfo.scss';
+@import './custom-styles/summary.scss';
+@import './custom-styles/title.scss';
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
 
 .App {
   display: flex;
   justify-content: center;
-}
-
-.dark {
-  position: absolute;
-  display: inline-block;
-  width: 11px;
-  height: 11px;
-  background: black;
-  border-radius: 50%;
-  margin: 0 5px;
-}
-
-.light {
-  position: absolute;
-  display: inline-block;
-  width: 11px;
-  height: 11px;
-  background: rgb(150,150,150);
-  border-radius: 50%;
-  margin: 0 5px;
 }
 
 .page{
@@ -38,39 +21,24 @@
   border: 1px solid black;
 
 }
-
-.my-picture {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background: black;
+.left-half{
+  width: 61%;
+  height: calc(100% - 40px);
+  display: inline-block;
   position: relative;
-  left: 20px;
-  top: 20px;
-  display: inline-block;
+  padding: 20px;
 }
 
-.name-title {
+.right-half{
   display: inline-block;
-  position: absolute;
-  font-family: "Calibri";
-  font-weight: 500;
-  font-style: normal;
-  font-size: 3rem;
-  left: 135px;
-  top: 25px;
+  position: relative;
+  height: calc(100% - 40px);
+  width: 30%;
+  padding: 20px;
 }
 
-.work-title {
-  display: inline-block;
-  position: absolute;
-  font-family: "Calibri";
-  font-weight: 500;
-  font-style: normal;
-  font-size: 1.5rem;
-  left: 135px;
-  top: 75px;
-}
+
+
 
 .vertical-timeline {
   position: absolute;
@@ -81,50 +49,6 @@
   top: 150px;
 }
 
-.summary-title {
-  position: absolute;
-  left: 140px;
-  top: $summary-start;
-  font-size: 20px;
-  font-weight: 500;
-}
-
-.bullet {
-  position: absolute;
-  left: 106px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: black;
-}
-
-.bullet-summary{
-  @extend .bullet;
-  top: $summary-start + 35px;
-}
-.bullet-experience-1{
-  @extend .bullet;
-  top: $experience-1-start + 5px;
-}
-.bullet-experience-2{
-  @extend .bullet;
-  top: $experience-2-start + 5px;
-}
-.bullet-experience-3{
-  @extend .bullet;
-  top: $experience-3-start + 5px;
-}
-.bullet-experience-4{
-  @extend .bullet;
-  top: $experience-4-start + 5px;
-}
-
-.summary {
-  position: absolute;
-  left: 140px;
-  top: $summary-start + 30px;
-  width: 400px;
-}
 
 
 

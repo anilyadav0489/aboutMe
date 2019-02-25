@@ -4,9 +4,16 @@ class Experience extends Component {
     render(){
         return (
             <div>
+                <div className="bullet-summary"></div>
                 <div className="summary-title">Summary</div>
                 <div className="summary">Web developer and artist with 6+ years of experience in front-end development using React JS, object-oriented and user-centered design, seeks position with a top technology firm.</div>
-                <div className="experience-icon"><i className="fa fa-business-time"></i></div>
+                
+                <div className="experience-info-icon"><i className="fa fa-briefcase fa-lg"></i></div>
+                <div className="bullet-experience-1"></div>
+                <div className="bullet-experience-2"></div>
+                <div className="bullet-experience-3"></div>
+                <div className="bullet-experience-4"></div>
+                
                 <div className="experience-title-main">Experience</div>
                 <div className="designation-1-start-time">2018-09</div>
                 <div className="designation-1-end-time">Present</div>

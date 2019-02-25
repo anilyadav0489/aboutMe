@@ -5,6 +5,7 @@ class Title extends Component {
     render(){
         return (
             <div>
+                
                 <div>
                     <img src={anilImage} className="my-picture" alt="ay"></img>
                 </div>

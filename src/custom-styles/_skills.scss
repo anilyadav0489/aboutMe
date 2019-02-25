@@ -2,19 +2,16 @@
 .skills-title {
     position: absolute;
     top: $skills-title-top;
-    left: 600px;
     font-weight: 600;
   }
   
   .skill-1 {
     position: absolute;
     top: $skill-1-top;
-    left: 600px;
   }
   
   .skill-1-bullets {
     position: absolute;
-    left: 700px;
     top: $skill-1-top + 20px;
   }
   
@@ -25,12 +22,10 @@
   .skill-2 {
     position: absolute;
     top: $skill-2-top;
-    left: 600px;
   }
   
   .skill-2-bullets {
     position: absolute;
-    left: 700px;
     top: $skill-2-top + 20px;
   }
   
@@ -41,12 +36,10 @@
   .skill-3 {
     position: absolute;
     top: $skill-3-top;
-    left: 600px;
   }
   
   .skill-3-bullets {
     position: absolute;
-    left: 700px;
     top: $skill-3-top + 20px;
   }
   
@@ -57,12 +50,10 @@
   .skill-4 {
     position: absolute;
     top: $skill-4-top;
-    left: 600px;
   }
   
   .skill-4-bullets {
     position: absolute;
-    left: 700px;
     top: $skill-4-top + 20px;
   }
   
@@ -73,12 +64,10 @@
   .skill-5 {
     position: absolute;
     top: $skill-5-top;
-    left: 600px;
   }
   
   .skill-5-bullets {
     position: absolute;
-    left: 700px;
     top: $skill-5-top + 20px;
   }
   
@@ -89,12 +78,10 @@
   .skill-6 {
     position: absolute;
     top: $skill-6-top;
-    left: 600px;
   }
   
   .skill-6-bullets {
     position: absolute;
-    left: 700px;
     top: $skill-6-top + 20px;
   }
   
@@ -105,12 +92,10 @@
   .skill-7 {
     position: absolute;
     top: $skill-7-top;
-    left: 600px;
   }
   
   .skill-7-bullets {
     position: absolute;
-    left: 700px;
     top: $skill-7-top + 20px;
   }
   
@@ -118,4 +103,25 @@
     position: relative;
     top: 5px;
   }
+
+  .dark {
+    position: absolute;
+    display: inline-block;
+    width: 10px;
+    height: 11px;
+    background: black;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .light {
+    position: absolute;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background: rgb(150,150,150);
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
   

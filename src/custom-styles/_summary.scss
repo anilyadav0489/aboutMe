@@ -1,0 +1,21 @@
+.summary-title {
+    position: absolute;
+    left: 140px;
+    top: $summary-start;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .summary {
+    position: absolute;
+    left: 140px;
+    top: $summary-start + 30px;
+    width: 400px;
+  }
+  
+  .bullet-summary{
+    @extend .bullet;
+    top: $summary-start + 35px;
+  }
+
+  

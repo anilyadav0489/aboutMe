@@ -4,6 +4,10 @@ class Education extends Component {
     render(){
         return (
             <div>
+                <div className="education-icon"><i className="fa fa-graduation-cap fa-lg"></i></div>
+                <div className="bullet-education-1"></div>
+                <div className="bullet-education-2"></div>
+
                 <div className="education-title-main">Education</div>
                 <div className="education-1-start-time">2007-07</div>
                 <div className="education-1-end-time">2011-06</div>
