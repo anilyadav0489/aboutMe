@@ -1,0 +1,86 @@
+div>i {
+    position: absolute;
+    left: 600px;
+    top: 50px;
+    width: 100px;
+    height: 100px;
+}
+.personal-info-title {
+    position: absolute;
+    left: 650px;
+    top: 50px;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .address-title {
+    position: absolute;
+    left: 600px;
+    top:$address-top;
+    font-weight: 600;
+  }
+  .address {
+    position: absolute;
+    left: 600px;
+    top: $address-top + 20px;
+  }
+  .phone-title{
+    position: absolute;
+    left:600px;
+    top:$phone-top;
+    font-weight: 600;
+  }
+  .phone{
+    position: absolute;
+    left: 600px;
+    top: $phone-top + 20px;
+  }
+  
+  .email-title{
+    position: absolute;
+    left:600px;
+    top:$email-top;
+    font-weight: 600;
+  }
+  .email{
+    position: absolute;
+    left: 600px;
+    top: $email-top + 20px;
+  }
+  
+  .dob-title{
+    position: absolute;
+    left:600px;
+    top:$dob-top;
+    font-weight: 600;
+  }
+  .dob{
+    position: absolute;
+    left: 600px;
+    top: $dob-top + 20px;
+  }
+  
+  .profile-title{
+    position: absolute;
+    left:600px;
+    top:$profile-top;
+    font-weight: 600;
+  }
+  .profile{
+    position: absolute;
+    left: 600px;
+    top: $profile-top + 20px;
+  }
+  
+  .linkedin-title{
+    position: absolute;
+    left:600px;
+    top:$linkedin-top;
+    font-weight: 600;
+  }
+  .linkedin{
+    position: absolute;
+    left: 600px;
+    top: $linkedin-top + 20px;
+  }
+  
