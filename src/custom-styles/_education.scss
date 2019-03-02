@@ -1,77 +1,38 @@
 .education-icon{
-  position: absolute;
-  left: 100px;
-  top: 1100px;
+  position: relative;
+  left: -25px;
+  top: 35px;
+  background: white;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
 }
+
 .education-title-main{
-    position: absolute;
-    left: 140px;
-    top: 1100px;
-    font-size: 20px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    font-size: 1.3rem;
     font-weight: 500;
   }
   
-  .education-start-time {
-    position: absolute;
-    left: 30px;
-  }
   .education-title {
-    position: absolute;
-    left: 140px;
-    font-size: 18px;
+    position: relative;
+    font-size: 1.1rem;
     font-weight: 500;
+    margin-top: 14px;
   }
   
   .education-school {
-    position: absolute;
-    left: 140px;
-    font-size: 18px;
+    position: relative;
+    font-size: 0.9rem;
   }
   
-  .education-1-start-time{
-    @extend .education-start-time;
-    top:$education-1-start;
-  }
   
-  .education-1-end-time{
-    @extend .education-start-time;
-    top:$education-1-start + 20px;
-  }
-  
-  .education-1-title {
-    @extend .education-title;
-    top: $education-1-start;
-  
-  }
-  .education-1-school{
-    @extend .education-school;
-    top: $education-1-start + 30px;
-  }
-  .education-2-start-time{
-    @extend .education-start-time;
-    top:$education-2-start;
-  }
-  
-  .education-2-end-time{
-    @extend .education-start-time;
-    top:$education-2-start + 20px;
-  }
-  
-  .education-2-title {
-    @extend .education-title;
-    top: $education-2-start;
-  
-  }
-  .education-2-school{
-    @extend .education-school;
-    top: $education-2-start + 30px;
-  }
-  .bullet-education-1{
+  .bullet-education{
     @extend .bullet;
-    top: $education-1-start + 5px;
+    left: -20px;
+    top: 36px;
   }
-  .bullet-education-2{
-    @extend .bullet;
-    top: $education-2-start + 5px;
-  }
+  
   

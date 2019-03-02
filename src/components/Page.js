@@ -1,24 +1,34 @@
-import React, {Component} from 'react';
-import Experience from './Experience';
-import Education from './Education';
+import React, { Component } from 'react';
+
 import PersonalInfo from './PersonalInfo';
 import Skills from './Skills';
 import Title from './Title';
+import TimelineDates from './TimelineDates';
+import TimelineContent from './TimelineContent';
+import Certifications from './Certifications';
 
 class Page extends Component {
     render() {
         return (
             <div className="page">
-                <Title />
-                <div className="vertical-timeline"></div>
                 <div className="left-half">
-                    <Experience />
-                    <Education />
+                    <Title />
+                    <div className="left-half-bottom-content">
+                        <TimelineDates />
+                        <TimelineContent />
+                    </div>
                 </div>
+
                 <div className="right-half">
                     <PersonalInfo />
                     <Skills />
+                    <Certifications />
                 </div>
+                <div className="timeline-tip-bottom"></div>
+                <div className="left-curve-bottom"></div>
+                <div className="right-curve-bottom"></div>
+                
+                <div className="vertical-timeline"></div>
             </div>
         );
     }

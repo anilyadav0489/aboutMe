@@ -1,185 +1,50 @@
   .experience-info-icon {
-    position: absolute;
-    left: 101px;
-    top: 300px;
+    position: relative;
+    left: -24px;
+    top: 50px;
     width: 20px;
     height: 22px;
     background: white;
+    z-index: 1;
   }
   .experience-title-main{
-    position: absolute;
-    left: 140px;
-    top: 300px;
-    font-size: 20px;
+    position: relative;
+    padding-bottom: 10px;
+    left: 4px;
+    top: 23px;
+    font-size: 1.3rem;
     font-weight: 500;
   }
   
-  .designation-start-time {
-    position: absolute;
-    left: 30px;
-  }
+  
   .designation-title {
-    position: absolute;
-    left: 140px;
-    font-size: 18px;
+    position: relative;
+    font-size: 1.1rem;
     font-weight: 500;
   }
   .company-title {
-    position: absolute;
-    left: 140px;
-    font-size: 16px;
+    position: relative;
+    font-size: 1rem;
     font-weight: 400;
   }
   .project-title {
-    position: absolute;
-    left: 140px;
-    font-size: 16px;
+    position: relative;
+    font-size: 1rem;
     font-weight: 400;
   }
   
   .project-detail{
-    position: absolute;
-    left: 140px;
-    width: 430px;
+    position: relative;
     font-size: $font-size-project-detail;
   }
   
   .company-title {
-    position: absolute;
-    left: 140px;
+    position: relative;
     font-size: 16px;
     font-weight: 400;
   }
-  .designation-1-start-time {
-    @extend .designation-start-time;
-    top: $experience-1-start;
-  }
-  .designation-1-end-time {
-    @extend .designation-start-time;
-    top: $experience-1-start + 20px;
-  }
-  .designation-1-title{
-    @extend .designation-title;
-    top: $experience-1-start;
-    
-  }
-  .company-1-title {
-    @extend .company-title;
-    top: $experience-1-start + 20px;
-  }
-  .project-1-title {
-    @extend .project-title;
-    top: $experience-1-start + 40px;
-  }
-  
-  .project-1-detail{
-    @extend .project-detail;
-    top: $experience-1-start + 60px;
-  }
-  
-  
-  .designation-2-start-time {
-    @extend .designation-start-time;
-    top: $experience-2-start;
-  }
-  .designation-2-end-time {
-    @extend .designation-start-time;
-    top: $experience-2-start + 20px;
-  }
-  .designation-2-title{
-    @extend .designation-title;
-    top: $experience-2-start;
-  }
-  .company-2-title {
-    @extend .company-title;
-    top: $experience-2-start + 20px;
-  }
-  .project-2-title {
-    @extend .project-title;
-    top: $experience-2-start + 40px;
-  }
-  
-  .project-2-detail{
-    @extend .project-detail;
-    top: $experience-2-start + 60px;
-  }
-  
-  
-  .designation-3-start-time {
-    @extend .designation-start-time;
-    top: $experience-3-start;
-  }
-  .designation-3-end-time {
-    @extend .designation-start-time;
-    top: $experience-3-start + 20px;
-  }
-  .designation-3-title{
-    @extend .designation-title;
-    top: $experience-3-start;
-  }
-  .company-3-title {
-    @extend .company-title;
-    top: $experience-3-start + 20px;
-  }
-  .project-3-title {
-    @extend .project-title;
-    top: $experience-3-start + 40px;
-  }
-  
-  .project-3-detail{
-    @extend .project-detail;
-    top: $experience-3-start + 60px;
-  }
-  
-  
-  .designation-4-start-time {
-    @extend .designation-start-time;
-    top: $experience-4-start;
-  }
-  .designation-4-end-time {
-    @extend .designation-start-time;
-    top: $experience-4-start + 20px;
-  }
-  .designation-4-title{
-    @extend .designation-title;
-    top: $experience-4-start;
-  }
-  .company-4-title {
-    @extend .company-title;
-    top: $experience-4-start + 20px;
-  }
-  .project-4-title {
-    @extend .project-title;
-    top: $experience-4-start + 40px;
-  }
-  
-  .project-4-detail{
-    @extend .project-detail;
-    top: $experience-4-start + 60px;
-  }
-  
-  .bullet {
-    position: absolute;
-    left: 106px;
-    width: 12px;
-    height: 12px;
-    border-radius: 50%;
-    background: black;
-  }
-  
-  .bullet-experience-1{
+  .bullet-experience{
     @extend .bullet;
-    top: $experience-1-start + 5px;
-  }
-  .bullet-experience-2{
-    @extend .bullet;
-    top: $experience-2-start + 5px;
-  }
-  .bullet-experience-3{
-    @extend .bullet;
-    top: $experience-3-start + 5px;
-  }
-  .bullet-experience-4{
-    @extend .bullet;
-    top: $experience-4-start + 5px;
+    left: -20px;
+    top: 22px;
   }

@@ -1,127 +1,51 @@
-
+.skills-header{
+  position: relative;
+  margin-top: 90px;
+}
+.skills-icon{
+    position: relative;
+    top: 30px;
+    font-size: 1.2rem;
+}
 .skills-title {
-    position: absolute;
-    top: $skills-title-top;
+    position: relative;
+    left: 30px;
     font-weight: 600;
+    font-size: 1.3rem;
   }
   
-  .skill-1 {
-    position: absolute;
-    top: $skill-1-top;
+.skill {
+    display: block;
+    font-size: 0.9rem;
+    padding-top: 30px;
   }
   
-  .skill-1-bullets {
-    position: absolute;
-    top: $skill-1-top + 20px;
-  }
-  
-  .skill-1-bullets span{
+  .skill-name {
+    display: inline-block;
     position: relative;
-    top: 5px;
-  }
-  .skill-2 {
-    position: absolute;
-    top: $skill-2-top;
-  }
-  
-  .skill-2-bullets {
-    position: absolute;
-    top: $skill-2-top + 20px;
-  }
-  
-  .skill-2-bullets span{
-    position: relative;
-    top: 5px;
-  }
-  .skill-3 {
-    position: absolute;
-    top: $skill-3-top;
-  }
-  
-  .skill-3-bullets {
-    position: absolute;
-    top: $skill-3-top + 20px;
-  }
-  
-  .skill-3-bullets span{
-    position: relative;
-    top: 5px;
-  }
-  .skill-4 {
-    position: absolute;
-    top: $skill-4-top;
-  }
-  
-  .skill-4-bullets {
-    position: absolute;
-    top: $skill-4-top + 20px;
-  }
-  
-  .skill-4-bullets span{
-    position: relative;
-    top: 5px;
-  }
-  .skill-5 {
-    position: absolute;
-    top: $skill-5-top;
-  }
-  
-  .skill-5-bullets {
-    position: absolute;
-    top: $skill-5-top + 20px;
-  }
-  
-  .skill-5-bullets span{
-    position: relative;
-    top: 5px;
-  }
-  .skill-6 {
-    position: absolute;
-    top: $skill-6-top;
-  }
-  
-  .skill-6-bullets {
-    position: absolute;
-    top: $skill-6-top + 20px;
-  }
-  
-  .skill-6-bullets span{
-    position: relative;
-    top: 5px;
-  }
-  .skill-7 {
-    position: absolute;
-    top: $skill-7-top;
-  }
-  
-  .skill-7-bullets {
-    position: absolute;
-    top: $skill-7-top + 20px;
-  }
-  
-  .skill-7-bullets span{
-    position: relative;
-    top: 5px;
+    float: left;
   }
 
-  .dark {
-    position: absolute;
+  .skill-bullets {
     display: inline-block;
-    width: 10px;
-    height: 11px;
-    background: black;
-    border-radius: 50%;
-    margin: 0 5px;
+    position: relative;
+    float: right;
+  }
+
+  
+  .dark {
+    position: relative;
+    display: inline-block;
+    margin: 0 3px;
+    font-size: 0.85em !important;
   }
   
   .light {
-    position: absolute;
+    font-size: 0.85em !important;
+    position: relative;
     display: inline-block;
-    width: 11px;
-    height: 11px;
-    background: rgb(150,150,150);
-    border-radius: 50%;
-    margin: 0 5px;
+    margin: 0 3px;
+    color: rgb(160,160,160);
   }
-  
+
   

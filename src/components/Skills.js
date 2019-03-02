@@ -4,62 +4,97 @@ class Skills extends Component {
     render(){
         return (
             <div>
-                <div className="skills-title">Skills</div>
-                <div className="skill-1">ReactJS, Redux</div>
-                <div className="skill-1-bullets">
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="light"></span>
+                <div className="skills-header">
+                    <div className="skills-icon"><i class="fa fa-puzzle-piece fa-lg"></i></div>
+                    <div className="skills-title">Skills</div>
                 </div>
-                <div className="skill-2">Javascript, NodeJS</div>
-                <div className="skill-2-bullets">
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="light"></span>
+
+                <div className="skill">
+                    <div className="skill-name">ReactJS, Redux</div>
+                    <div className="skill-bullets">
+                        <i className="fa fa-circle dark"></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle light "></i>
+                    </div>
                 </div>
-                <div className="skill-3">HTML5, CSS</div>
-                <div className="skill-3-bullets">
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="light"></span>
+                
+                <div className="skill">
+                    <div className="skill-name">Javascript, NodeJS</div>
+                    <div className="skill-bullets">
+                        <i className="fa fa-circle dark"></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle light "></i>
+                    </div>
                 </div>
-                <div className="skill-4">Java</div>
-                <div className="skill-4-bullets">
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="light"></span>
-                    <span className="light"></span>
+                
+                <div className="skill">
+                    <div className="skill-name">HTML5, CSS</div>
+                    <div className="skill-bullets">
+                        <i className="fa fa-circle dark"></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle light "></i>
+                    </div>
                 </div>
-                <div className="skill-5">Agile, Git Hub, SVN</div>
-                <div className="skill-5-bullets">
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="light"></span>
-                    <span className="light"></span>
-                    <span className="light"></span>
+                
+                <div className="skill">
+                    <div className="skill-name">Java</div>
+                    <div className="skill-bullets">
+                        <i className="fa fa-circle dark"></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle light "></i>
+                        <i className="fa fa-circle light "></i>
+                    </div>
                 </div>
-                <div className="skill-6">Amazon Web Services</div>
-                <div className="skill-6-bullets">
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="light"></span>
-                    <span className="light"></span>
-                    <span className="light"></span>
+                
+                <div className="skill">
+                    <div className="skill-name">Git Hub, SVN</div>
+                    <div className="skill-bullets">
+                        <i className="fa fa-circle dark"></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle light "></i>
+                        <i className="fa fa-circle light "></i>
+                    </div>
                 </div>
-                <div className="skill-7">Unix</div>
-                <div className="skill-7-bullets">
-                    <span className="dark"></span>
-                    <span className="dark"></span>
-                    <span className="light"></span>
-                    <span className="light"></span>
-                    <span className="light"></span>
+                
+                <div className="skill">
+                    <div className="skill-name">Agile, Waterfall</div>
+                    <div className="skill-bullets">
+                        <i className="fa fa-circle dark"></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle light "></i>
+                        <i className="fa fa-circle light "></i>
+                        <i className="fa fa-circle light "></i>
+                    </div>
+                </div>
+                
+                <div className="skill">
+                    <div className="skill-name">AWS</div>
+                    <div className="skill-bullets">
+                        <i className="fa fa-circle dark"></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle light "></i>
+                        <i className="fa fa-circle light "></i>
+                        <i className="fa fa-circle light "></i>
+                    </div>
+                </div>
+                
+                <div className="skill">
+                    <div className="skill-name">UNIX</div>
+                    <div className="skill-bullets">
+                        <i className="fa fa-circle dark"></i>
+                        <i className="fa fa-circle dark "></i>
+                        <i className="fa fa-circle light "></i>
+                        <i className="fa fa-circle light "></i>
+                        <i className="fa fa-circle light "></i>
+                    </div>
                 </div>
                 
             </div>

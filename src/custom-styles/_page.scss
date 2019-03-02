@@ -1,0 +1,68 @@
+
+.page{
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    width: 768px;
+    min-width: 768px;
+    max-width: $max-page-width;
+    border: 1px solid black;
+  
+  }
+  .left-half{
+    width: 62%;
+    display: inline-block;
+    position: relative;
+    padding: 20px 0 20px 20px;
+    vertical-align: top;
+    border-right: 1px solid pink;
+  }
+  
+  .right-half{
+    display: inline-block;
+    position: relative;
+    width: 29%;
+    padding: 20px 0 20px 10px;
+  }
+
+  .vertical-timeline {
+    display: inline-block;
+    position: absolute;
+    width: 0px;
+    height: 1070px;
+    border: 2px solid rgb(80,80,80);
+    left: 90px;
+    top: 160px;
+  }
+
+  .timeline-tip-bottom {
+    position: absolute;
+    width: 21px;
+    height: 10px;
+    left: 81px;
+    top:1224px;
+    background: rgb(80,80,80);
+
+  }
+.left-curve-bottom{
+  left: 78px;
+  top: 1220px;
+  position: absolute;
+  width: 12px;
+  height: 10px;
+  background: white;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.right-curve-bottom{
+    left: 94px;
+    top: 1220px;
+    position: absolute;
+    width: 12px;
+    height: 10px;
+    background: white;
+    border-radius: 10px;
+    z-index: 1;
+}
+

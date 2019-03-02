@@ -1,4 +1,5 @@
 @page { size: auto;  margin: 0mm; }
+@import '../node_modules/font-awesome/css/font-awesome.min.css';
 @import './custom-styles/variables.scss';
 @import './custom-styles/education.scss';
 @import './custom-styles/experience.scss';
@@ -6,49 +7,14 @@
 @import './custom-styles/personalInfo.scss';
 @import './custom-styles/summary.scss';
 @import './custom-styles/title.scss';
-@import '../node_modules/font-awesome/css/font-awesome.min.css';
+@import './custom-styles/page.scss';
+@import './custom-styles/timeline-dates.scss';
+@import './custom-styles/timeline-content.scss';
+@import './custom-styles/certification.scss';
 
 .App {
+  width: 100%;
+  min-width: 768px;
   display: flex;
   justify-content: center;
 }
-
-.page{
-  position: relative;
-  width: 100vw;
-  max-width: $max-page-width;
-  min-height: $max-page-height;
-  border: 1px solid black;
-
-}
-.left-half{
-  width: 61%;
-  height: calc(100% - 40px);
-  display: inline-block;
-  position: relative;
-  padding: 20px;
-}
-
-.right-half{
-  display: inline-block;
-  position: relative;
-  height: calc(100% - 40px);
-  width: 30%;
-  padding: 20px;
-}
-
-
-
-
-.vertical-timeline {
-  position: absolute;
-  width: 0px;
-  height: 1100px;
-  border: 2px solid rgb(80,80,80);
-  left: 110px;
-  top: 150px;
-}
-
-
-
-

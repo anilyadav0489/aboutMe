@@ -1,21 +1,38 @@
+.summary-section{
+}
+
+
+.summary-icon{
+  position: relative;
+  display: inline-block;
+  width: 26px;
+  height: 20px;
+  left: -28px;
+  top: 10px;
+  background: white;
+  z-index: 1;
+}
+
 .summary-title {
-    position: absolute;
-    left: 140px;
-    top: $summary-start;
-    font-size: 20px;
-    font-weight: 500;
+  display: inline-block;
+  position: relative;
+  left: -20px;
+  top: 10px;
+  font-size: 1.3rem;
+  font-weight: 500;
   }
   
   .summary {
-    position: absolute;
-    left: 140px;
-    top: $summary-start + 30px;
-    width: 400px;
+    position: relative;
+    padding-top: 20px;
+    font-size: 0.9rem; 
   }
   
   .bullet-summary{
     @extend .bullet;
-    top: $summary-start + 35px;
+    display: inline-block;
+    top: 42px;
+    left: -136px;
   }
 
   

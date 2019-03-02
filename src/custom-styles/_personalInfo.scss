@@ -1,73 +1,70 @@
+$title-font-size: 1rem;
+$content-font-size: 0.9rem;
+
 .personal-info-icon {
-    position: absolute;
-    top: 50px;
-    width: 100px;
-    height: 100px;
+  display: inline-block;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 30px;
 }
 .personal-info-title {
-    position: absolute;
-    left: 55px;
-    top: 50px;
-    font-size: 20px;
-    font-weight: 500;
+  display: inline-block;
+  position: relative;
+  padding-left: 5px;
+  font-size: 1.3rem;
+  font-weight: 500;
   }
   
   .address-title {
-    position: absolute;
-    top:$address-top;
+    font-size: $title-font-size;
     font-weight: 600;
   }
   .address {
-    position: absolute;
-    top: $address-top + 20px;
+    font-size: $content-font-size;
+    margin-bottom: 20px;
   }
   .phone-title{
-    position: absolute;
-    top:$phone-top;
+    font-size: $title-font-size;
     font-weight: 600;
   }
   .phone{
-    position: absolute;
-    top: $phone-top + 20px;
+    font-size: $content-font-size;
+    margin-bottom: 20px;
   }
   
   .email-title{
-    position: absolute;
-    top:$email-top;
+    font-size: $title-font-size;
     font-weight: 600;
   }
   .email{
-    position: absolute;
-    top: $email-top + 20px;
+    font-size: $content-font-size;
+    margin-bottom: 20px;
   }
   
   .dob-title{
-    position: absolute;
-    top:$dob-top;
+    font-size: $title-font-size;
     font-weight: 600;
   }
   .dob{
-    position: absolute;
-    top: $dob-top + 20px;
+    font-size: $content-font-size;
+    margin-bottom: 20px;
   }
   
   .profile-title{
-    position: absolute;
-    top:$profile-top;
+    font-size: $title-font-size;
     font-weight: 600;
   }
   .profile{
-    position: absolute;
-    top: $profile-top + 20px;
+    font-size: $content-font-size;
+    margin-bottom: 20px;
   }
   
   .linkedin-title{
-    position: absolute;
-    top:$linkedin-top;
+    font-size: $title-font-size;
     font-weight: 600;
   }
   .linkedin{
-    position: absolute;
-    top: $linkedin-top + 20px;
+    font-size: $content-font-size;
+    margin-bottom: 20px;
   }
   

@@ -1,6 +1,6 @@
 $max-page-height: 1400px;
 $max-page-width: 1000px;
-$summary-start:150px;
+$summary-start:50px;
 $experience-1-start:340px;
 $experience-2-start:500px;
 $experience-3-start:660px;
@@ -24,3 +24,8 @@ $skill-5-top:750px;
 $skill-6-top:800px;
 $skill-7-top:850px;
 $skill-8-top:900px;
+
+.bullet {
+    position: relative;
+    color: rgb(80, 80, 80);
+}
