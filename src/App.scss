@@ -1,4 +1,4 @@
-@page { size: auto;  margin: 0mm; }
+@page { size: auto;  margin: 1mm; }
 @import '../node_modules/font-awesome/css/font-awesome.min.css';
 @import './custom-styles/variables.scss';
 @import './custom-styles/education.scss';
@@ -14,7 +14,7 @@
 
 .App {
   width: 100%;
-  min-width: 768px;
+  min-width: 49rem;
   display: flex;
   justify-content: center;
 }

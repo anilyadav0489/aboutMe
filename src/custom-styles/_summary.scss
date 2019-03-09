@@ -1,14 +1,11 @@
-.summary-section{
-}
-
 
 .summary-icon{
   position: relative;
   display: inline-block;
-  width: 26px;
-  height: 20px;
-  left: -28px;
-  top: 10px;
+  width: 1.6rem;
+  height: 1.3rem;
+  left: -1.7rem;
+  top: 0.6rem;
   background: white;
   z-index: 1;
 }
@@ -16,23 +13,23 @@
 .summary-title {
   display: inline-block;
   position: relative;
-  left: -20px;
-  top: 10px;
-  font-size: 1.3rem;
+  left: -1.3rem;
+  top: 0.6rem;
+  font-size: 1.2rem;
   font-weight: 500;
   }
   
   .summary {
     position: relative;
     padding-top: 20px;
-    font-size: 0.9rem; 
+    font-size: 0.8rem; 
   }
   
   .bullet-summary{
     @extend .bullet;
     display: inline-block;
     top: 42px;
-    left: -136px;
+    left: -8rem;
   }
 
   

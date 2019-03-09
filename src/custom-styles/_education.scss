@@ -1,26 +1,26 @@
 .education-icon{
   position: relative;
-  left: -25px;
-  top: 35px;
+  left: -1.6rem;
+  top: 2.7rem;
   background: white;
   z-index: 1;
-  width: 20px;
-  height: 20px;
+  width: 1.3rem;
+  height: 1.3rem;
 }
 
 .education-title-main{
     position: relative;
-    left: 10px;
-    top: 10px;
-    font-size: 1.3rem;
+    left: 0.6rem;
+    top: 1.2rem;
+    font-size: 1.2rem;
     font-weight: 500;
   }
   
   .education-title {
     position: relative;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 500;
-    margin-top: 14px;
+    margin-top: 0.6rem;
   }
   
   .education-school {
@@ -31,8 +31,8 @@
   
   .bullet-education{
     @extend .bullet;
-    left: -20px;
-    top: 36px;
+    left: -1.2rem;
+    top: 2rem;
   }
   
   
