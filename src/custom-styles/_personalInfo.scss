@@ -4,7 +4,7 @@ $content-font-size: 0.9rem;
 .personal-info-icon {
   display: inline-block;
   position: relative;
-  margin-top: 50px;
+  margin-top: 1rem;
   margin-bottom: 1.8rem;
 }
 .personal-info-title {
@@ -21,7 +21,7 @@ $content-font-size: 0.9rem;
   }
   .address {
     font-size: $content-font-size;
-    margin-bottom: 1rem;
+    margin-bottom: 0.8rem;
   }
   .phone-title{
     font-size: $title-font-size;
@@ -29,7 +29,7 @@ $content-font-size: 0.9rem;
   }
   .phone{
     font-size: $content-font-size;
-    margin-bottom: 20px;
+    margin-bottom: 0.8rem;
   }
   
   .email-title{
@@ -38,7 +38,7 @@ $content-font-size: 0.9rem;
   }
   .email{
     font-size: $content-font-size;
-    margin-bottom: 20px;
+    margin-bottom: 0.8rem;
   }
   
   .dob-title{

@@ -10,7 +10,7 @@ class Title extends Component {
                 </div>
                 <div className="title-content">
                     <div className="name-title">Anil Yadav</div>
-                    <div className="work-title">Web Developer</div>
+                    <div className="work-title">Front End Developer (React JS)</div>
                 </div>
             </div>
         );

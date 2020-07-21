@@ -7,9 +7,9 @@ class PersonalInfo extends Component {
                 <div className="personal-info-icon"><i class="fa fa-address-card fa-lg"></i></div>
                 <div className="personal-info-title">Personal Info</div>
                 <div className="address-title">Address</div>
-                <div className="address">Pune, Maharashtra - 412114</div>
+                <div className="address">Gurugram, Haryana - 122017</div>
                 <div className="phone-title">Phone</div>
-                <div className="phone">+91-84597-32047</div>
+                <div className="phone">+91-96431-36238</div>
                 <div className="email-title">E-Mail</div>
                 <div className="email">AnilYadav0489@gmail.com</div>
                 <div className="dob-title">Date of Birth</div>
