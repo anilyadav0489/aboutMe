@@ -21,7 +21,7 @@ class Skills extends Component {
                 </div>
                 
                 <div className="skill">
-                    <div className="skill-name">Javascript, NodeJS</div>
+                    <div className="skill-name">Javascript</div>
                     <div className="skill-bullets">
                         <i className="fa fa-circle dark"></i>
                         <i className="fa fa-circle dark "></i>
@@ -42,16 +42,6 @@ class Skills extends Component {
                     </div>
                 </div>
                 
-                <div className="skill">
-                    <div className="skill-name">Java</div>
-                    <div className="skill-bullets">
-                        <i className="fa fa-circle dark"></i>
-                        <i className="fa fa-circle dark "></i>
-                        <i className="fa fa-circle dark "></i>
-                        <i className="fa fa-circle light "></i>
-                        <i className="fa fa-circle light "></i>
-                    </div>
-                </div>
                 
                 <div className="skill">
                     <div className="skill-name">Git Hub, SVN</div>
